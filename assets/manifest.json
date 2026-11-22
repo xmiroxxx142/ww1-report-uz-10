@@ -1,0 +1,82 @@
+{
+  "gifs": [
+    {
+      "id": "mobilization",
+      "filename": "assets/gifs/mobilization.gif",
+      "section_hint": "outbreak",
+      "title_ru": "Мобилизация и марш войск на фронт",
+      "caption_ru": "Колонны конной артиллерии и войск отправляются на фронт. Архивная кинохроника, 1916 г.",
+      "source_film": "Australia Prepared (1916)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Australia_Prepared_(1916).webm",
+      "width": 460,
+      "height": 274,
+      "frames": 32,
+      "size_kb": 1861.8
+    },
+    {
+      "id": "trenches",
+      "filename": "assets/gifs/trenches.gif",
+      "section_hint": "campaigns",
+      "title_ru": "Окопная война: атака на Сомме",
+      "caption_ru": "Британская пехота поднимается из траншей в атаку. Кадры из документального фильма «Битва на Сомме», 1916 г.",
+      "source_film": "The Battle of the Somme (1916)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Battle_of_the_Somme_(1916).webm",
+      "width": 460,
+      "height": 360,
+      "frames": 32,
+      "size_kb": 1196.0
+    },
+    {
+      "id": "artillery",
+      "filename": "assets/gifs/artillery.gif",
+      "section_hint": "weapons",
+      "title_ru": "Тяжёлая осадная артиллерия",
+      "caption_ru": "Залп 9,2-дюймовой гаубицы на Западном фронте. Архивная хроника Первой мировой войны, 1916–1918 гг.",
+      "source_film": "9.2-inch Howitzer Firing, WWI (c. 1917)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:9.2inchhowitzerfiringWWI.ogv",
+      "width": 460,
+      "height": 346,
+      "frames": 32,
+      "size_kb": 2574.5
+    },
+    {
+      "id": "tanks",
+      "filename": "assets/gifs/tanks.gif",
+      "section_hint": "weapons",
+      "title_ru": "Первые танки на поле боя",
+      "caption_ru": "Лёгкий танк Renault FT в камуфляже преодолевает пересечённую местность. Кинохроника 1918 г.",
+      "source_film": "Tanks of WWI (1918)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tanks_of_WWI.ogv",
+      "width": 460,
+      "height": 332,
+      "frames": 32,
+      "size_kb": 1184.5
+    },
+    {
+      "id": "naval",
+      "filename": "assets/gifs/naval.gif",
+      "section_hint": "campaigns",
+      "title_ru": "Война на море: гибель линкора «Сент Иштван»",
+      "caption_ru": "Австро-венгерский дредноут SMS Szent István опрокидывается после торпедной атаки в Адриатическом море, 10 июня 1918 г.",
+      "source_film": "A Szent István csatahajó pusztulása (1918)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Szent_Istv%C3%A1n_csatahaj%C3%B3_pusztul%C3%A1sa.ogv",
+      "width": 460,
+      "height": 346,
+      "frames": 32,
+      "size_kb": 1636.3
+    },
+    {
+      "id": "armistice",
+      "filename": "assets/gifs/armistice.gif",
+      "section_hint": "consequences",
+      "title_ru": "День перемирия — 11 ноября 1918 года",
+      "caption_ru": "Ликующие толпы на бульварах Парижа в день подписания Компьенского перемирия, 11 ноября 1918 г.",
+      "source_film": "La journée de l'Armistice (1918)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:La_journ%C3%A9e_de_l%27Armistice_-_AI90872.webm",
+      "width": 460,
+      "height": 346,
+      "frames": 32,
+      "size_kb": 2312.0
+    }
+  ]
+}
