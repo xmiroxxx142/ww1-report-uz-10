@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Первая мировая война (1914–1918 гг.) — Всемирная история, 10 класс (Узбекистан)</title>
+  <meta name="description" content="Учебный доклад по Всемирной истории для 10 класса (Республика Узбекистан): Первая мировая война 1914–1918 гг. с архивной документальной кинохроникой.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div class="reading-progress" aria-hidden="true">
+    <div class="reading-progress__bar" id="readingProgressBar"></div>
+  </div>
+
+  <!-- Mobile Top Bar -->
+  <header class="mobile-bar">
+    <div class="mobile-bar__title">Первая мировая война (1914–1918)</div>
+    <button type="button" class="mobile-bar__btn" id="mobileMenuBtn" aria-expanded="false" aria-controls="sidebarNav">
+      ☰ Содержание
+    </button>
+  </header>
+
+  <div class="page-shell">
+    <!-- Sticky Sidebar Navigation -->
+    <aside class="sidebar" id="sidebarNav" aria-label="Содержание доклада">
+      <div class="sidebar__dossier">
+        <span>Дело № 1914–1918</span>
+        <span>10 класс</span>
+      </div>
+      <h2 class="sidebar__heading">Содержание</h2>
+      <nav>
+        <ul class="toc-list">
+          <li><a class="toc-link is-active" href="#hero"><span class="toc-link__num">00</span><span>Общие сведения</span></a></li>
+          <li><a class="toc-link" href="#causes"><span class="toc-link__num">01</span><span>Причины и военные блоки</span></a></li>
+          <li><a class="toc-link" href="#outbreak"><span class="toc-link__num">02</span><span>Повод и начало войны</span></a></li>
+          <li><a class="toc-link" href="#campaigns"><span class="toc-link__num">03</span><span>Ход боевых действий</span></a></li>
+          <li><a class="toc-link" href="#weapons"><span class="toc-link__num">04</span><span>Новые вооружения</span></a></li>
+          <li><a class="toc-link" href="#turkestan"><span class="toc-link__num">05</span><span>Туркестан и Узбекистан</span></a></li>
+          <li><a class="toc-link" href="#consequences"><span class="toc-link__num">06</span><span>Итоги и последствия</span></a></li>
+          <li><a class="toc-link" href="#timeline"><span class="toc-link__num">07</span><span>Хронология событий</span></a></li>
+          <li><a class="toc-link" href="#glossary"><span class="toc-link__num">08</span><span>Глоссарий терминов</span></a></li>
+          <li><a class="toc-link" href="#sources"><span class="toc-link__num">09</span><span>Источники и хроника</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="sidebar__actions">
+        <button type="button" class="btn-archival" id="printReportBtn">
+          ⎙ Печать / Сохранить PDF
+        </button>
+      </div>
+
+      <div class="sidebar__meta">
+        <strong>Предмет:</strong> Всемирная история, 10 класс<br>
+        <strong>Программа:</strong> Республика Узбекистан<br>
+        <strong>Медиа:</strong> 6 архивных кинохроник (1916–1918)
+      </div>
+    </aside>
+
+    <!-- Main Editorial Column -->
+    <main class="report-main">
+      <!-- HERO HEADER -->
+      <header class="hero" id="hero">
+        <div class="hero__eyebrow-row">
+          <div class="hero__eyebrow">Всемирная история · 10 класс · Республика Узбекистан</div>
+          <div class="hero__stamp">Учебный доклад · Архивная хроника</div>
+        </div>
+
+        <h1 class="hero__title">
+          Первая мировая война <span class="hero__dates">(1914–1918 гг.)</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Причины, ход боевых действий, новые технологии, влияние на Туркестан и геополитические итоги глобального конфликта (28 июля 1914 — 11 ноября 1918).
+        </p>
+
+        <blockquote class="hero__epigraph">
+          «Война, которая должна положить конец всем войнам»
+          <cite>— Герберт Уэллс, 1914 г.</cite>
+        </blockquote>
+
+        <div class="hero__author">
+          <div class="hero__author-label">Выполнил:</div>
+          <div>Ученик 10«Б» класса</div>
+          <div>СГОШ-56</div>
+          <div class="hero__author-name">Вареник Леонид</div>
+        </div>
+
+        <div class="stats-grid" aria-label="Ключевые показатели Первой мировой войны">
+          <div class="stat-card">
+            <div class="stat-card__value">38</div>
+            <div class="stat-card__label">государств-участников</div>
+            <div class="stat-card__detail">Война охватила страны с населением свыше 1,5 млрд человек — более 75% населения Земли.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__value">~70 млн</div>
+            <div class="stat-card__label">мобилизованных</div>
+            <div class="stat-card__detail">В армии воюющих держав было призвано около 70 млн человек (из них около 60 млн — в Европе).</div>
+          </div>
+          <div class="stat-card stat-card--crimson">
+            <div class="stat-card__value">~10 млн</div>
+            <div class="stat-card__label">погибших военных</div>
+            <div class="stat-card__detail">Прямые боевые потери армий; общие потери с учётом мирного населения оцениваются в 17–20 млн человек.</div>
+          </div>
+          <div class="stat-card stat-card--crimson">
+            <div class="stat-card__value">~20 млн</div>
+            <div class="stat-card__label">раненых и искалеченных</div>
+            <div class="stat-card__detail">Миллионы солдат вернулись с фронтов инвалидами из-за применения артиллерии и химического оружия.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__value">4</div>
+            <div class="stat-card__label">павшие империи</div>
+            <div class="stat-card__detail">Прекратили существование Российская, Германская, Австро-Венгерская и Османская империи.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__value">1567</div>
+            <div class="stat-card__label">дней длительности</div>
+            <div class="stat-card__detail">Боевые действия продолжались более четырёх лет — на суше, на море и впервые массово в воздухе.</div>
+          </div>
+        </div>
+      </header>
+
+      <!-- SECTION 01: ПРИЧИНЫ И ПРЕДПОСЫЛКИ -->
+      <section class="report-section" id="causes">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 01 · Предпосылки конфликта</span>
+          <h2 class="section-title">Причины и предпосылки войны</h2>
+          <p class="section-lead">
+            Первая мировая война стала закономерным результатом глубоких империалистических противоречий между ведущими державами мира в борьбе за передел колоний, рынков сбыта, источников сырья и сфер политического влияния.
+          </p>
+        </div>
+
+        <div class="prose">
+          <p>
+            К началу XX века территориальный раздел мира между старыми колониальными державами — Великобританией и Францией — был в основном завершён. Однако стремительно развивавшиеся молодые индустриальные державы, прежде всего Германская империя, обогнав Британию по темпам промышленного роста, требовали «места под солнцем» — передела уже занятых колоний и рынков.
+          </p>
+          <p>
+            Напряжённость усиливалась гонкой вооружений, особенно англо-германским соперничеством на море, а также ростом национализма и милитаризма в европейских обществах. Франция стремилась к реваншу за поражение во франко-прусской войне 1870–1871 годов и возвращению Эльзаса и Лотарингии. Российская и Австро-Венгерская империи остро соперничали за влияние на Балканах.
+          </p>
+          <p>
+            Особым очагом нестабильности стали Балканы, получившие название <strong>«порохового погреба Европы»</strong>. Ослабление Османской империи и две Балканские войны (1912–1913) резко обострили противоречия между Сербией, опиравшейся на поддержку России, и Австро-Венгрией, аннексировавшей в 1908 году Боснию и Герцеговину.
+          </p>
+
+          <h3>Главные узлы противоречий</h3>
+          <div class="info-grid">
+            <article class="info-card">
+              <span class="info-card__badge">Запад и колонии</span>
+              <h4>Германия — Великобритания</h4>
+              <p>Борьба за мировое экономическое лидерство, колонии и господство на море.</p>
+            </article>
+            <article class="info-card">
+              <span class="info-card__badge">Континентальный спор</span>
+              <h4>Германия — Франция</h4>
+              <p>Спор за Эльзас и Лотарингию, соперничество в Северной Африке (Марокканские кризисы).</p>
+            </article>
+            <article class="info-card">
+              <span class="info-card__badge">«Пороховой погреб»</span>
+              <h4>Австро-Венгрия — Россия и Сербия</h4>
+              <p>Борьба за влияние на Балканском полуострове и судьбу южнославянских народов.</p>
+            </article>
+            <article class="info-card">
+              <span class="info-card__badge">Военная гонка</span>
+              <h4>Милитаризм и система союзов</h4>
+              <p>Рост военных бюджетов, создание массовых армий и жёсткие союзнические обязательства, разделившие Европу на два враждебных лагеря.</p>
+            </article>
+          </div>
+
+          <h3>Сравнение противоборствующих блоков</h3>
+          <div class="table-wrap">
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Критерий</th>
+                  <th class="col-entente">Антанта («Сердечное согласие»)</th>
+                  <th class="col-central">Тройственный союз (Центральные державы)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Время оформления</td>
+                  <td>1904–1907 гг.</td>
+                  <td>1882 г.</td>
+                </tr>
+                <tr>
+                  <td>Основные участники</td>
+                  <td>Великобритания, Франция, Российская империя</td>
+                  <td>Германская империя, Австро-Венгрия, Королевство Италия (в 1915 г. перешла на сторону Антанты)</td>
+                </tr>
+                <tr>
+                  <td>Присоединившиеся союзники</td>
+                  <td>Сербия, Япония, Италия (1915), Румыния (1916), США (1917) и ещё свыше 20 государств</td>
+                  <td>Османская империя (1914), Царство Болгария (1915) — образовался «Четверной союз»</td>
+                </tr>
+                <tr>
+                  <td>Военно-политические цели</td>
+                  <td>Сохранение колониальных империй и морского господства (Великобритания), возвращение Эльзаса и Лотарингии (Франция), укрепление позиций на Балканах и контроль над Черноморскими проливами (Россия).</td>
+                  <td>Передел колониальных владений, ослабление Великобритании и Франции, установление гегемонии Германии в Европе и контроль над Ближним Востоком, доминирование Австро-Венгрии на Балканах.</td>
+                </tr>
+                <tr>
+                  <td>Стратегические преимущества</td>
+                  <td>Огромные людские и сырьевые ресурсы колоний, господство британского флота на море, экономическая поддержка США.</td>
+                  <td>Центральное географическое положение, развитая сеть железных дорог, высокий уровень боевой подготовки и тяжёлой промышленности Германии.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 02: ПОВОД И НАЧАЛО ВОЙНЫ -->
+      <section class="report-section" id="outbreak">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 02 · Лето 1914 года</span>
+          <h2 class="section-title">Повод и начало войны</h2>
+          <p class="section-lead">
+            Искрой, поджёгшей «пороховой погреб Европы», стало Сараевское убийство, переросшее в стремительный дипломатический Июльский кризис 1914 года.
+          </p>
+        </div>
+
+        <div class="prose">
+          <p>
+            28 июня 1914 года в Сараево (столице аннексированной Австро-Венгрией Боснии) сербский гимназист Гаврило Принцип, член националистической организации «Млада Босна», застрелил наследника австро-венгерского престола эрцгерцога Франца Фердинанда и его супругу Софию.
+          </p>
+          <p>
+            Правящие круги Австро-Венгрии, заручившись безоговорочной поддержкой Германии («карт-бланш» кайзера Вильгельма II), использовали трагедию как предлог для разгрома Сербии. 23 июля Вена предъявила Белграду жёсткий ультиматум из десяти пунктов, требовавший фактически отказаться от части государственного суверенитета. Сербия приняла почти все требования, кроме допуска австрийской полиции на свою территорию, но этого оказалось недостаточно.
+          </p>
+          <p>
+            28 июля 1914 года Австро-Венгрия объявила войну Сербии. Механизм союзнических обязательств запустил цепную реакцию: Россия объявила всеобщую мобилизацию для защиты Сербии, в ответ 1 августа Германия объявила войну России, 3 августа — Франции, а после вторжения германских войск в нейтральную Бельгию 4 августа в войну против Германии вступила Великобритания. Локальный балканский конфликт за неделю превратился в мировую войну.
+          </p>
+
+          <h3>Цепная реакция Июльского кризиса</h3>
+          <ol class="crisis-steps">
+            <li class="crisis-step">
+              <span class="crisis-step__date">28 июня 1914</span>
+              <span class="crisis-step__text">Убийство эрцгерцога Франца Фердинанда в Сараево.</span>
+            </li>
+            <li class="crisis-step">
+              <span class="crisis-step__date">23 июля 1914</span>
+              <span class="crisis-step__text">Ультиматум Австро-Венгрии Сербии сроком на 48 часов.</span>
+            </li>
+            <li class="crisis-step">
+              <span class="crisis-step__date">28 июля 1914</span>
+              <span class="crisis-step__text">Австро-Венгрия объявляет войну Сербии — начало Первой мировой войны.</span>
+            </li>
+            <li class="crisis-step">
+              <span class="crisis-step__date">30 июля 1914</span>
+              <span class="crisis-step__text">Объявление всеобщей мобилизации в Российской империи.</span>
+            </li>
+            <li class="crisis-step">
+              <span class="crisis-step__date">1 августа 1914</span>
+              <span class="crisis-step__text">Германия объявляет войну России.</span>
+            </li>
+            <li class="crisis-step">
+              <span class="crisis-step__date">3–4 августа 1914</span>
+              <span class="crisis-step__text">Германия объявляет войну Франции и вторгается в Бельгию; Великобритания объявляет войну Германии.</span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- ARCHIVAL REEL 1: MOBILIZATION -->
+        <figure class="reel-figure"
+                data-title="Мобилизация и марш войск на фронт"
+                data-caption="Колонны конной артиллерии и войск отправляются на фронт. Архивная кинохроника, 1916 г."
+                data-source-film="Australia Prepared (1916)"
+                data-source-url="https://commons.wikimedia.org/wiki/File:Australia_Prepared_(1916).webm">
+          <div class="reel-sprockets" aria-hidden="true"></div>
+          <div class="reel-header">
+            <div class="reel-header__left">
+              <span class="reel-badge"><span class="reel-badge__dot"></span>Хроника</span>
+              <h4 class="reel-title">Мобилизация и марш войск на фронт</h4>
+            </div>
+            <div class="reel-controls">
+              <button type="button" class="reel-btn reel-pause-btn" aria-pressed="false">❚❚ Пауза</button>
+              <button type="button" class="reel-btn reel-expand-btn">⤢ Увеличить</button>
+            </div>
+          </div>
+          <div class="reel-stage" title="Нажмите, чтобы увеличить архивную кинохронику">
+            <img src="assets/gifs/mobilization.gif" alt="Архивная кинохроника: колонны конной артиллерии и войск отправляются на фронт" width="460" height="274" loading="lazy">
+            <canvas class="reel-freeze" aria-hidden="true"></canvas>
+            <span class="reel-paused-pill">Пауза</span>
+          </div>
+          <figcaption class="reel-caption">
+            <p class="reel-caption__text">Колонны конной артиллерии и войск отправляются на фронт. Архивная кинохроника, 1916 г.</p>
+            <div class="reel-caption__meta">
+              <span>Фильм: Australia Prepared (1916)</span>
+              <a href="https://commons.wikimedia.org/wiki/File:Australia_Prepared_(1916).webm" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a>
+            </div>
+          </figcaption>
+          <div class="reel-sprockets" aria-hidden="true"></div>
+        </figure>
+      </section>
+
+      <!-- SECTION 03: ХОД БОЕВЫХ ДЕЙСТВИЙ -->
+      <section class="report-section" id="campaigns">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 03 · 1914–1918 гг.</span>
+          <h2 class="section-title">Ход боевых действий и ключевые сражения (1914–1918)</h2>
+          <p class="section-lead">
+            Военные стратеги всех стран рассчитывали на быструю победоносную кампанию, но уже осенью 1914 года война превратилась в затяжную битву на истощение на множестве фронтов.
+          </p>
+        </div>
+
+        <div class="prose">
+          <p>
+            Основные сухопутные операции развернулись на Западном фронте (во Франции и Бельгии) и Восточном фронте (от Балтики до Карпат), а также на Итальянском, Балканском, Кавказском и Ближневосточном театрах. Важную роль играла борьба на море, включая британскую блокаду Германии и германскую подводную войну.
+          </p>
+
+          <h3>Этапы войны по годам</h3>
+          <div class="stages-list">
+            <article class="stage-card">
+              <div class="stage-card__year">1914</div>
+              <div>
+                <h4>Крах плана молниеносной войны</h4>
+                <p>Германия действовала по «плану Шлиффена», стремясь за 6–8 недель разгромить Францию ударом через нейтральную Бельгию, а затем перебросить силы против России. Однако в сентябре 1914 года в ходе битвы на реке Марне англо-французские войска остановили немецкое наступление на подступах к Парижу. Этому способствовало и наступление русской армии в Восточной Пруссии, вынудившее Германию перебросить часть дивизий на восток. На Западном фронте установилась изнурительная позиционная (окопная) война.</p>
+              </div>
+            </article>
+            <article class="stage-card">
+              <div class="stage-card__year">1915</div>
+              <div>
+                <h4>Удар на Востоке и химическая война</h4>
+                <p>Германия перенесла главный удар на Восточный фронт: в ходе Горлицкого прорыва русские войска отступили из Польши, Галиции и части Прибалтики («Великое отступление»), однако вывести Россию из войны не удалось. На Западном фронте в апреле 1915 года под бельгийским городом Ипр Германия впервые в истории массированно применила боевой отравляющий газ (хлор). В мае Италия вступила в войну на стороне Антанты, а осенью Болгария присоединилась к Центральным державам.</p>
+              </div>
+            </article>
+            <article class="stage-card">
+              <div class="stage-card__year">1916</div>
+              <div>
+                <h4>Год величайших сражений на истощение</h4>
+                <p>С февраля по декабрь длилась «Верденская мясорубка» — ожесточённое сражение под французской крепостью Верден, унёсшее сотни тысяч жизней без решающего успеха Германии. Летом 1916 года российская армия провела успешный Брусиловский прорыв, нанеся тяжёлое поражение Австро-Венгрии и спасая союзников. В июле–ноябре прошла битва на реке Сомме (более 1 млн потерь с обеих сторон), где Великобритания впервые применила танки. На море в мае–июне состоялось крупнейшее Ютландское сражение, после которого германский надводный флот уже не решался оспаривать господство Британии.</p>
+              </div>
+            </article>
+            <article class="stage-card">
+              <div class="stage-card__year">1917</div>
+              <div>
+                <h4>Перелом в соотношении сил и революции в России</h4>
+                <p>Неограниченная подводная война Германии и перехваченная «телеграмма Циммермана» подтолкнули США к вступлению в войну на стороне Антанты 6 апреля 1917 года, что обеспечило союзникам подавляющее экономическое и людское превосходство. В то же время Российскую империю потрясли Февральская и Октябрьская революции, ослабившие боеспособность Восточного фронта и поставившие вопрос о выходе России из войны.</p>
+              </div>
+            </article>
+            <article class="stage-card">
+              <div class="stage-card__year">1918</div>
+              <div>
+                <h4>Брестский мир и капитуляция Центральных держав</h4>
+                <p>3 марта 1918 года Советская Россия подписала сепаратный Брестский мир с Центральными державами, потеряв значительные территории на западе. Высвободив силы, Германия предприняла последнее «Весеннее наступление» во Франции, но была остановлена. Летом и осенью Антанта при поддержке свежих американских войск провела Стодневное наступление. Из войны последовательно вышли Болгария, Османская империя и Австро-Венгрия. После Ноябрьской революции в Германии и отречения кайзера Вильгельма II 11 ноября 1918 года в Компьенском лесу было подписано перемирие — Первая мировая война завершилась.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- ARCHIVAL REEL 2: TRENCHES -->
+        <figure class="reel-figure"
+                data-title="Окопная война: атака на Сомме"
+                data-caption="Британская пехота поднимается из траншей в атаку. Кадры из документального фильма «Битва на Сомме», 1916 г."
+                data-source-film="The Battle of the Somme (1916)"
+                data-source-url="https://commons.wikimedia.org/wiki/File:The_Battle_of_the_Somme_(1916).webm">
+          <div class="reel-sprockets" aria-hidden="true"></div>
+          <div class="reel-header">
+            <div class="reel-header__left">
+              <span class="reel-badge"><span class="reel-badge__dot"></span>Хроника</span>
+              <h4 class="reel-title">Окопная война: атака на Сомме</h4>
+            </div>
+            <div class="reel-controls">
+              <button type="button" class="reel-btn reel-pause-btn" aria-pressed="false">❚❚ Пауза</button>
+              <button type="button" class="reel-btn reel-expand-btn">⤢ Увеличить</button>
+            </div>
+          </div>
+          <div class="reel-stage" title="Нажмите, чтобы увеличить архивную кинохронику">
+            <img src="assets/gifs/trenches.gif" alt="Архивная кинохроника: британская пехота поднимается из траншей в атаку в битве на Сомме, 1916 г." width="460" height="360" loading="lazy">
+            <canvas class="reel-freeze" aria-hidden="true"></canvas>
+            <span class="reel-paused-pill">Пауза</span>
+          </div>
+          <figcaption class="reel-caption">
+            <p class="reel-caption__text">Британская пехота поднимается из траншей в атаку. Кадры из документального фильма «Битва на Сомме», 1916 г.</p>
+            <div class="reel-caption__meta">
+              <span>Фильм: The Battle of the Somme (1916)</span>
+              <a href="https://commons.wikimedia.org/wiki/File:The_Battle_of_the_Somme_(1916).webm" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a>
+            </div>
+          </figcaption>
+          <div class="reel-sprockets" aria-hidden="true"></div>
+        </figure>
+
+        <div class="prose">
+          <h3>Ключевые сражения Первой мировой войны</h3>
+          <div class="battles-grid">
+            <article class="battle-card battle-card--major">
+              <div class="battle-card__year">5–12 сентября 1914 г. · Западный фронт</div>
+              <h4>Битва на Марне</h4>
+              <p>Срыв немецкого «плана Шлиффена», спасение Парижа и переход к позиционной войне.</p>
+            </article>
+            <article class="battle-card">
+              <div class="battle-card__year">22 апреля — 25 мая 1915 г. · Западный фронт</div>
+              <h4>Вторая битва при Ипре</h4>
+              <p>Первое массовое применение химического оружия (хлора) в истории войн.</p>
+            </article>
+            <article class="battle-card battle-card--major">
+              <div class="battle-card__year">21 февраля — 18 декабря 1916 г. · Западный фронт</div>
+              <h4>Верденская битва («Верденская мясорубка»)</h4>
+              <p>Символ войны на истощение; общие потери превысили 700 тыс. человек, оборона Франции устояла.</p>
+            </article>
+            <article class="battle-card">
+              <div class="battle-card__year">31 мая — 1 июня 1916 г. · Северное море</div>
+              <h4>Ютландское сражение</h4>
+              <p>Крупнейшее морское сражение войны; сохранение британской морской блокады Германии.</p>
+            </article>
+            <article class="battle-card battle-card--major">
+              <div class="battle-card__year">4 июня — 20 сентября 1916 г. · Восточный фронт</div>
+              <h4>Брусиловский прорыв</h4>
+              <p>Прорыв австро-венгерской обороны на 80–120 км, ослабление сил Германии под Верденом и в Италии.</p>
+            </article>
+            <article class="battle-card battle-card--major">
+              <div class="battle-card__year">1 июля — 18 ноября 1916 г. · Западный фронт</div>
+              <h4>Битва на Сомме</h4>
+              <p>Одно из самых кровопролитных сражений (свыше 1 млн потерь); 15 сентября впервые применены танки.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- ARCHIVAL REEL 3: NAVAL WARFARE -->
+        <figure class="reel-figure"
+                data-title="Война на море: гибель линкора «Сент Иштван»"
+                data-caption="Австро-венгерский дредноут SMS Szent István опрокидывается после торпедной атаки в Адриатическом море, 10 июня 1918 г."
+                data-source-film="A Szent István csatahajó pusztulása (1918)"
+                data-source-url="https://commons.wikimedia.org/wiki/File:A_Szent_Istv%C3%A1n_csatahaj%C3%B3_pusztul%C3%A1sa.ogv">
+          <div class="reel-sprockets" aria-hidden="true"></div>
+          <div class="reel-header">
+            <div class="reel-header__left">
+              <span class="reel-badge"><span class="reel-badge__dot"></span>Хроника</span>
+              <h4 class="reel-title">Война на море: гибель линкора «Сент Иштван»</h4>
+            </div>
+            <div class="reel-controls">
+              <button type="button" class="reel-btn reel-pause-btn" aria-pressed="false">❚❚ Пауза</button>
+              <button type="button" class="reel-btn reel-expand-btn">⤢ Увеличить</button>
+            </div>
+          </div>
+          <div class="reel-stage" title="Нажмите, чтобы увеличить архивную кинохронику">
+            <img src="assets/gifs/naval.gif" alt="Архивная кинохроника: гибель австро-венгерского линкора SMS Szent István в Адриатическом море, 1918 г." width="460" height="346" loading="lazy">
+            <canvas class="reel-freeze" aria-hidden="true"></canvas>
+            <span class="reel-paused-pill">Пауза</span>
+          </div>
+          <figcaption class="reel-caption">
+            <p class="reel-caption__text">Австро-венгерский дредноут SMS Szent István опрокидывается после торпедной атаки в Адриатическом море, 10 июня 1918 г.</p>
+            <div class="reel-caption__meta">
+              <span>Фильм: A Szent István csatahajó pusztulása (1918)</span>
+              <a href="https://commons.wikimedia.org/wiki/File:A_Szent_Istv%C3%A1n_csatahaj%C3%B3_pusztul%C3%A1sa.ogv" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a>
+            </div>
+          </figcaption>
+          <div class="reel-sprockets" aria-hidden="true"></div>
+        </figure>
+      </section>
+
+      <!-- SECTION 04: НОВЫЕ ВИДЫ ВООРУЖЕНИЙ -->
+      <section class="report-section" id="weapons">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 04 · Индустриализация войны</span>
+          <h2 class="section-title">Новые виды вооружений и характер войны</h2>
+          <p class="section-lead">
+            Первая мировая стала первой «тотальной войной» индустриальной эпохи: в неё были вовлечены не только армии, но и вся экономика, наука и гражданское население воюющих государств.
+          </p>
+        </div>
+
+        <div class="prose">
+          <div class="archival-note">
+            <div class="archival-note__title">Характер тотальной войны</div>
+            <p>
+              Государства перевели промышленность на военные рельсы, ввели карточную систему, государственное регулирование производства и массовый труд женщин на заводах. Прогресс науки и техники придал войне небывалый разрушительный характер: средства обороны (окопы, колючая проволока, пулемёты) оказались значительно эффективнее прежних способов наступления.
+            </p>
+          </div>
+
+          <div class="weapons-grid">
+            <article class="weapon-card">
+              <div class="weapon-card__top">
+                <span class="weapon-card__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h18M5 17V9l4 3 3-5 3 5 4-3v8"/></svg>
+                </span>
+                <span class="weapon-card__year">1914–1918</span>
+              </div>
+              <h4>Окопная система и пулемёты</h4>
+              <p>Многокилометровые линии траншей, блиндажей и заграждений из колючей проволоки в сочетании со скорострельными пулемётами (Максим, Виккерс) сделали лобовые атаки пехоты чрезвычайно кровопролитными.</p>
+            </article>
+
+            <article class="weapon-card">
+              <div class="weapon-card__top">
+                <span class="weapon-card__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+                </span>
+                <span class="weapon-card__year">Главный урон</span>
+              </div>
+              <h4>Тяжёлая артиллерия</h4>
+              <p>Артиллерия стала главным средством поражения: на её долю пришлось более половины всех боевых потерь. Появились сверхдальнобойные орудия и многодневные «огневые валы».</p>
+            </article>
+
+            <article class="weapon-card">
+              <div class="weapon-card__top">
+                <span class="weapon-card__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="12" width="18" height="6" rx="3"/><path d="M7 12V8h7l2 4M14 9h6"/></svg>
+                </span>
+                <span class="weapon-card__year">15 сент. 1916</span>
+              </div>
+              <h4>Танки</h4>
+              <p>Созданы Великобританией для преодоления траншей и колючей проволоки. Впервые применены 15 сентября 1916 года на реке Сомме (танки Mark I), а к 1918 году стали массовым оружием прорыва.</p>
+            </article>
+
+            <article class="weapon-card">
+              <div class="weapon-card__top">
+                <span class="weapon-card__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4 2 7-6.5-4.5L5.5 20l2-7L2 9h7z"/></svg>
+                </span>
+                <span class="weapon-card__year">Воздушный фронт</span>
+              </div>
+              <h4>Военная авиация и дирижабли</h4>
+              <p>От первых самолётов-разведчиков стороны быстро перешли к специализированным истребителям и бомбардировщикам, а также цеппелинам для налётов на города в тылу.</p>
+            </article>
+
+            <article class="weapon-card">
+              <div class="weapon-card__top">
+                <span class="weapon-card__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 15c2-3 18-3 20 0-2 3-18 3-20 0z"/><path d="M10 12V8h4v4M12 8V5"/></svg>
+                </span>
+                <span class="weapon-card__year">U-boot</span>
+              </div>
+              <h4>Подводные лодки</h4>
+              <p>Германские субмарины (U-boot) вели активную охоту на торговые суда Антанты, пытаясь задушить экономику Британии и нарушить трансатлантические поставки.</p>
+            </article>
+
+            <article class="weapon-card">
+              <div class="weapon-card__top">
+                <span class="weapon-card__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3L4 20h16L12 3z"/><path d="M12 10v4M12 17h.01"/></svg>
+                </span>
+                <span class="weapon-card__year">Ипр, 1915</span>
+              </div>
+              <h4>Отравляющие газы</h4>
+              <p>Хлор, фосген и горчичный газ (иприт, применённый под Ипром в 1917 г.) вызывали тяжёлые поражения дыхательных путей и кожи, породив массовое производство противогазов.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- ARCHIVAL REEL DUO: ARTILLERY & TANKS -->
+        <div class="reel-duo">
+          <figure class="reel-figure"
+                  data-title="Тяжёлая осадная артиллерия"
+                  data-caption="Залп 9,2-дюймовой гаубицы на Западном фронте. Архивная хроника Первой мировой войны, 1916–1918 гг."
+                  data-source-film="9.2-inch Howitzer Firing, WWI (c. 1917)"
+                  data-source-url="https://commons.wikimedia.org/wiki/File:9.2inchhowitzerfiringWWI.ogv">
+            <div class="reel-sprockets" aria-hidden="true"></div>
+            <div class="reel-header">
+              <div class="reel-header__left">
+                <span class="reel-badge"><span class="reel-badge__dot"></span>Хроника</span>
+                <h4 class="reel-title">Тяжёлая осадная артиллерия</h4>
+              </div>
+              <div class="reel-controls">
+                <button type="button" class="reel-btn reel-pause-btn" aria-pressed="false">❚❚ Пауза</button>
+                <button type="button" class="reel-btn reel-expand-btn">⤢ Увеличить</button>
+              </div>
+            </div>
+            <div class="reel-stage" title="Нажмите, чтобы увеличить архивную кинохронику">
+              <img src="assets/gifs/artillery.gif" alt="Архивная кинохроника: залп 9,2-дюймовой гаубицы на Западном фронте, ок. 1917 г." width="460" height="346" loading="lazy">
+              <canvas class="reel-freeze" aria-hidden="true"></canvas>
+              <span class="reel-paused-pill">Пауза</span>
+            </div>
+            <figcaption class="reel-caption">
+              <p class="reel-caption__text">Залп 9,2-дюймовой гаубицы на Западном фронте. Архивная хроника Первой мировой войны, 1916–1918 гг.</p>
+              <div class="reel-caption__meta">
+                <span>9.2-inch Howitzer Firing (c. 1917)</span>
+                <a href="https://commons.wikimedia.org/wiki/File:9.2inchhowitzerfiringWWI.ogv" target="_blank" rel="noopener noreferrer">Wikimedia ↗</a>
+              </div>
+            </figcaption>
+            <div class="reel-sprockets" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="reel-figure"
+                  data-title="Первые танки на поле боя"
+                  data-caption="Лёгкий танк Renault FT в камуфляже преодолевает пересечённую местность. Кинохроника 1918 г."
+                  data-source-film="Tanks of WWI (1918)"
+                  data-source-url="https://commons.wikimedia.org/wiki/File:Tanks_of_WWI.ogv">
+            <div class="reel-sprockets" aria-hidden="true"></div>
+            <div class="reel-header">
+              <div class="reel-header__left">
+                <span class="reel-badge"><span class="reel-badge__dot"></span>Хроника</span>
+                <h4 class="reel-title">Первые танки на поле боя</h4>
+              </div>
+              <div class="reel-controls">
+                <button type="button" class="reel-btn reel-pause-btn" aria-pressed="false">❚❚ Пауза</button>
+                <button type="button" class="reel-btn reel-expand-btn">⤢ Увеличить</button>
+              </div>
+            </div>
+            <div class="reel-stage" title="Нажмите, чтобы увеличить архивную кинохронику">
+              <img src="assets/gifs/tanks.gif" alt="Архивная кинохроника: лёгкий танк Renault FT в камуфляже преодолевает пересечённую местность, 1918 г." width="460" height="332" loading="lazy">
+              <canvas class="reel-freeze" aria-hidden="true"></canvas>
+              <span class="reel-paused-pill">Пауза</span>
+            </div>
+            <figcaption class="reel-caption">
+              <p class="reel-caption__text">Лёгкий танк Renault FT в камуфляже преодолевает пересечённую местность. Кинохроника 1918 г.</p>
+              <div class="reel-caption__meta">
+                <span>Tanks of WWI (1918)</span>
+                <a href="https://commons.wikimedia.org/wiki/File:Tanks_of_WWI.ogv" target="_blank" rel="noopener noreferrer">Wikimedia ↗</a>
+              </div>
+            </figcaption>
+            <div class="reel-sprockets" aria-hidden="true"></div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION 05: ТУРКЕСТАН И УЗБЕКИСТАН (DEDICATED CALLOUT) -->
+      <section class="report-section turkestan-section" id="turkestan">
+        <div class="section-header">
+          <div class="turkestan-badge">Региональный фокус · Программа 10 класса Узбекистана</div>
+          <h2 class="section-title">Влияние войны на Туркестан и Узбекистан (1916 г.)</h2>
+          <p class="section-lead">
+            Хотя линия фронта находилась за тысячи километров от Центральной Азии, Первая мировая война тяжёлым бременем легла на народы Туркестанского края и стала катализатором мощного национально-освободительного движения 1916 года.
+          </p>
+        </div>
+
+        <div class="turkestan-facts">
+          <div class="turkestan-fact">
+            <div class="turkestan-fact__num">25 июня 1916 г.</div>
+            <div class="turkestan-fact__desc"><strong>Указ о мобилизации:</strong> призыв мужчин 19–43 лет на тыловые работы (мардикерство); квота для Туркестана — около 250 тыс. человек.</div>
+          </div>
+          <div class="turkestan-fact">
+            <div class="turkestan-fact__num">13 июля 1916 г.</div>
+            <div class="turkestan-fact__desc"><strong>Эпицентр — Джизак:</strong> крупнейшее вооружённое выступление в уезде под руководством Назирходжи Абдусаламова и Абдурахмана Джевачи.</div>
+          </div>
+          <div class="turkestan-fact">
+            <div class="turkestan-fact__num">Пробуждение</div>
+            <div class="turkestan-fact__desc"><strong>Историческое значение:</strong> восстание продемонстрировало стремление народов Туркестана к свободе и ослабило колониальную систему.</div>
+          </div>
+        </div>
+
+        <div class="prose">
+          <p>
+            С началом войны Туркестан превратился в важнейшую сырьевую базу Российской империи. Из края в огромных объёмах вывозились хлопок (необходимый не только для текстильной промышленности, но и для производства пороха), мясо, скот, юрты, продовольствие и лошади. Одновременно резко выросли налоги и военные сборы, сократились посевы зерновых, цены на хлеб и предметы первой необходимости выросли в несколько раз, поставив тысячи дехканских семей на грань голода.
+          </p>
+          <p>
+            Переломным событием стал указ императора Николая II от <strong>25 июня 1916 года</strong> «О привлечении мужского инородческого населения империи к работам по устройству оборонительных сооружений и военных сообщений в районе действующей армии». Коренное население Туркестана, ранее освобождённое от воинской повинности, обязывалось направить на тыловые работы (<em>мардикерство</em>) около 250 тысяч мужчин в возрасте от 19 до 43 лет. Указ был объявлен в разгар летних полевых работ и в священный месяц Рамадан, а составление списков сопровождалось коррупцией, произволом чиновников и откупом зажиточных слоёв.
+          </p>
+          <p>
+            Народное возмущение переросло в стихийное антиколониальное восстание 1916 года. 4 июля выступление началось в Ходженте, 11 июля — в Ташкенте, а вскоре охватило Самаркандскую, Ферганскую, Сырдарьинскую и Закаспийскую области. В протестах участвовали дехкане, ремесленники, мардикеры, городская беднота и женщины.
+          </p>
+
+          <div class="archival-note">
+            <div class="archival-note__title">«Джизакская трагедия» (июль 1916 года)</div>
+            <p>
+              Наиболее организованным и драматичным очагом стало Джизакское восстание, вспыхнувшее 13 июля 1916 года. Под руководством духовного лидера Назирходжи Абдусаламова (Назирходжи-ишана) и Абдурахмана Джевачи восставшие отказались выполнять указ, прервали телеграфную и железнодорожную связь и оказали вооружённое сопротивление. Против них был направлен крупный карательный отряд с артиллерией. К 18–21 июля восстание было жестоко подавлено войсками под общим руководством генерал-губернатора А. Н. Куропаткина: часть Джизака и десятки кишлаков были сожжены, тысячи людей погибли, были арестованы или сосланы, а земли конфискованы. В историю Узбекистана эти события вошли как «Джизакская трагедия».
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 06: ИТОГИ И ПОСЛЕДСТВИЯ -->
+      <section class="report-section" id="consequences">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 06 · Новый миропорядок</span>
+          <h2 class="section-title">Итоги и последствия войны</h2>
+          <p class="section-lead">
+            Первая мировая война радикально перекроила политическую карту мира, разрушила вековые монархии и заложила хрупкую систему международных отношений межвоенного периода.
+          </p>
+        </div>
+
+        <div class="prose">
+          <p>
+            Война обернулась беспрецедентной гуманитарной и экономической катастрофой. Погибло около 10 миллионов солдат и миллионы мирных жителей, ещё около 20 миллионов получили ранения. Европа утратила роль безоговорочного финансового центра мира, уступив экономическое лидерство Соединённым Штатам Америки, превратившимся из должника в главного мирового кредитора.
+          </p>
+          <p>
+            Политическая карта Евразии изменилась до неузнаваемости. Прекратили существование четыре великие империи — Российская, Германская, Австро-Венгерская и Османская. На их обломках возникли новые независимые государства: Польша, Чехословакия, Королевство сербов, хорватов и словенцев (Югославия), Финляндия, Австрия, Венгрия, государства Балтии, а позднее — Турецкая Республика и СССР.
+          </p>
+
+          <h3>Распад четырёх империй</h3>
+          <div class="empires-grid">
+            <article class="empire-card">
+              <h4>Российская империя</h4>
+              <p>Пала в результате революций 1917 года; последовала Гражданская война и образование СССР (1922), а также независимых Польши, Финляндии и стран Балтии.</p>
+            </article>
+            <article class="empire-card">
+              <h4>Германская империя</h4>
+              <p>Ноябрьская революция 1918 года, отречение кайзера Вильгельма II, провозглашение Веймарской республики и тяжёлые условия Версальского мира.</p>
+            </article>
+            <article class="empire-card">
+              <h4>Австро-Венгерская империя</h4>
+              <p>Распалась в октябре–ноябре 1918 года на Австрию, Венгрию, Чехословакию; часть земель вошла в состав Югославии, Польши, Румынии и Италии.</p>
+            </article>
+            <article class="empire-card">
+              <h4>Османская империя</h4>
+              <p>Потеряла арабские владения на Ближнем Востоке (перешли под мандат Британии и Франции); в 1923 году на основе Анатолии провозглашена Турецкая Республика.</p>
+            </article>
+          </div>
+
+          <h3>Версальско-Вашингтонская система и Лига Наций</h3>
+          <p>
+            Для закрепления итогов войны в 1919–1920 годах прошла Парижская мирная конференция, главным документом которой стал <strong>Версальский мирный договор</strong> с Германией (28 июня 1919 г.). Германия лишалась всех колоний и части европейских территорий, была обязана выплачивать огромные репарации и сократить армию до 100 тысяч человек. Вместе с Вашингтонской конференцией (1921–1922) эти соглашения образовали Версальско-Вашингтонскую систему. Для предотвращения новых войн была учреждена первая глобальная международная организация — <strong>Лига Наций</strong>. Однако несправедливые и унизительные условия мира породили в проигравших странах реваншистские настроения, что через двадцать лет привело мир ко Второй мировой войне.
+          </p>
+        </div>
+
+        <!-- ARCHIVAL REEL 6: ARMISTICE -->
+        <figure class="reel-figure"
+                data-title="День перемирия — 11 ноября 1918 года"
+                data-caption="Ликующие толпы на бульварах Парижа в день подписания Компьенского перемирия, 11 ноября 1918 г."
+                data-source-film="La journée de l'Armistice (1918)"
+                data-source-url="https://commons.wikimedia.org/wiki/File:La_journ%C3%A9e_de_l%27Armistice_-_AI90872.webm">
+          <div class="reel-sprockets" aria-hidden="true"></div>
+          <div class="reel-header">
+            <div class="reel-header__left">
+              <span class="reel-badge"><span class="reel-badge__dot"></span>Хроника</span>
+              <h4 class="reel-title">День перемирия — 11 ноября 1918 года</h4>
+            </div>
+            <div class="reel-controls">
+              <button type="button" class="reel-btn reel-pause-btn" aria-pressed="false">❚❚ Пауза</button>
+              <button type="button" class="reel-btn reel-expand-btn">⤢ Увеличить</button>
+            </div>
+          </div>
+          <div class="reel-stage" title="Нажмите, чтобы увеличить архивную кинохронику">
+            <img src="assets/gifs/armistice.gif" alt="Архивная кинохроника: ликующие толпы на бульварах Парижа 11 ноября 1918 г." width="460" height="346" loading="lazy">
+            <canvas class="reel-freeze" aria-hidden="true"></canvas>
+            <span class="reel-paused-pill">Пауза</span>
+          </div>
+          <figcaption class="reel-caption">
+            <p class="reel-caption__text">Ликующие толпы на бульварах Парижа в день подписания Компьенского перемирия, 11 ноября 1918 г.</p>
+            <div class="reel-caption__meta">
+              <span>Фильм: La journée de l'Armistice (1918)</span>
+              <a href="https://commons.wikimedia.org/wiki/File:La_journ%C3%A9e_de_l%27Armistice_-_AI90872.webm" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a>
+            </div>
+          </figcaption>
+          <div class="reel-sprockets" aria-hidden="true"></div>
+        </figure>
+      </section>
+
+      <!-- SECTION 07: ИНТЕРАКТИВНАЯ ХРОНОЛОГИЯ -->
+      <section class="report-section" id="timeline">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 07 · Ключевые даты</span>
+          <h2 class="section-title">Интерактивная хронология (1914–1918)</h2>
+          <p class="section-lead">Выберите год, чтобы отфильтровать важнейшие события Первой мировой войны и восстания 1916 года в Туркестане.</p>
+        </div>
+
+        <div class="timeline-filters" role="group" aria-label="Фильтр хронологии по годам">
+          <button type="button" class="filter-pill is-active" data-filter="all" aria-pressed="true">Все годы (12)</button>
+          <button type="button" class="filter-pill" data-filter="1914" aria-pressed="false">1914</button>
+          <button type="button" class="filter-pill" data-filter="1915" aria-pressed="false">1915</button>
+          <button type="button" class="filter-pill" data-filter="1916" aria-pressed="false">1916</button>
+          <button type="button" class="filter-pill" data-filter="1917" aria-pressed="false">1917</button>
+          <button type="button" class="filter-pill" data-filter="1918" aria-pressed="false">1918</button>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item" data-year="1914">
+            <div class="timeline-item__date">28 июня 1914</div>
+            <h3 class="timeline-item__title">Сараевское убийство</h3>
+            <p class="timeline-item__desc">Убийство австрийского эрцгерцога Франца Фердинанда в Сараево — повод к началу войны.</p>
+          </article>
+          <article class="timeline-item" data-year="1914">
+            <div class="timeline-item__date">28 июля 1914</div>
+            <h3 class="timeline-item__title">Начало Первой мировой войны</h3>
+            <p class="timeline-item__desc">Австро-Венгрия объявляет войну Сербии; в начале августа в войну вступают Германия, Россия, Франция и Великобритания.</p>
+          </article>
+          <article class="timeline-item" data-year="1914">
+            <div class="timeline-item__date">5–12 сентября 1914</div>
+            <h3 class="timeline-item__title">Битва на Марне</h3>
+            <p class="timeline-item__desc">Англо-французские войска останавливают наступление Германии; провал «плана Шлиффена».</p>
+          </article>
+          <article class="timeline-item" data-year="1915">
+            <div class="timeline-item__date">22 апреля 1915</div>
+            <h3 class="timeline-item__title">Газовая атака под Ипром</h3>
+            <p class="timeline-item__desc">Первое массированное применение химического оружия (хлора) на Западном фронте.</p>
+          </article>
+          <article class="timeline-item" data-year="1916">
+            <div class="timeline-item__date">21 февраля — 18 декабря 1916</div>
+            <h3 class="timeline-item__title">Верденская битва</h3>
+            <p class="timeline-item__desc">Кровопролитное десятимесячное сражение на истощение во Франции.</p>
+          </article>
+          <article class="timeline-item" data-year="1916">
+            <div class="timeline-item__date">4 июня 1916</div>
+            <h3 class="timeline-item__title">Брусиловский прорыв</h3>
+            <p class="timeline-item__desc">Крупнейшее успешное наступление русской армии против Австро-Венгрии на Восточном фронте.</p>
+          </article>
+          <article class="timeline-item" data-year="1916">
+            <div class="timeline-item__date">25 июня 1916</div>
+            <h3 class="timeline-item__title">Указ о тыловых работах в Туркестане</h3>
+            <p class="timeline-item__desc">Николай II подписывает указ о мобилизации коренного мужского населения на тыловые работы (мардикерство).</p>
+          </article>
+          <article class="timeline-item" data-year="1916">
+            <div class="timeline-item__date">13 июля 1916</div>
+            <h3 class="timeline-item__title">Джизакское восстание</h3>
+            <p class="timeline-item__desc">Кульминация национально-освободительного восстания 1916 года в Туркестане.</p>
+          </article>
+          <article class="timeline-item" data-year="1916">
+            <div class="timeline-item__date">15 сентября 1916</div>
+            <h3 class="timeline-item__title">Первое применение танков</h3>
+            <p class="timeline-item__desc">Британская армия впервые использует танки в ходе битвы на реке Сомме.</p>
+          </article>
+          <article class="timeline-item" data-year="1917">
+            <div class="timeline-item__date">6 апреля 1917</div>
+            <h3 class="timeline-item__title">Вступление США в войну</h3>
+            <p class="timeline-item__desc">Соединённые Штаты объявляют войну Германии на стороне Антанты.</p>
+          </article>
+          <article class="timeline-item" data-year="1918">
+            <div class="timeline-item__date">3 марта 1918</div>
+            <h3 class="timeline-item__title">Брестский мир</h3>
+            <p class="timeline-item__desc">Выход Советской России из Первой мировой войны путём подписания сепаратного мира.</p>
+          </article>
+          <article class="timeline-item" data-year="1918">
+            <div class="timeline-item__date">11 ноября 1918</div>
+            <h3 class="timeline-item__title">Компьенское перемирие</h3>
+            <p class="timeline-item__desc">Капитуляция Германии и окончание Первой мировой войны; 28 июня 1919 года подписан Версальский мирный договор.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 08: ГЛОССАРИЙ -->
+      <section class="report-section" id="glossary">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 08 · Исторические понятия</span>
+          <h2 class="section-title">Глоссарий терминов</h2>
+        </div>
+
+        <dl class="glossary-grid">
+          <div class="glossary-item">
+            <dt>Антанта</dt>
+            <dd>Военно-политический блок Великобритании, Франции и России (оформился в 1904–1907 гг.), ставший основой антигерманской коалиции.</dd>
+          </div>
+          <div class="glossary-item">
+            <dt>Тройственный союз</dt>
+            <dd>Военно-политический союз Германии, Австро-Венгрии и Италии (1882 г.); в годы войны на его основе сложился блок Центральных держав.</dd>
+          </div>
+          <div class="glossary-item">
+            <dt>Позиционная (окопная) война</dt>
+            <dd>Форма ведения боевых действий со стабильной линией фронта, глубокими системами траншей и длительным истощением сил обеих сторон.</dd>
+          </div>
+          <div class="glossary-item">
+            <dt>Тотальная война</dt>
+            <dd>Война, в которой государства мобилизуют все материальные, экономические, научные и человеческие ресурсы, стирая грань между фронтом и тылом.</dd>
+          </div>
+          <div class="glossary-item">
+            <dt>Мардикеры</dt>
+            <dd>В Средней Азии — наёмные подённые рабочие; в 1916 году так называли коренных жителей Туркестана, мобилизованных царским указом на тыловые работы.</dd>
+          </div>
+          <div class="glossary-item">
+            <dt>Аннексия</dt>
+            <dd>Насильственное присоединение одним государством территории (или её части), принадлежащей другому государству или народу.</dd>
+          </div>
+          <div class="glossary-item">
+            <dt>Репарации</dt>
+            <dd>Возмещение побеждённым государством материального ущерба, причинённого войной странам-победительницам (в денежной или натуральной форме).</dd>
+          </div>
+          <div class="glossary-item">
+            <dt>Лига Наций</dt>
+            <dd>Первая международная организация, созданная в 1919–1920 гг. по итогам Первой мировой войны для поддержания мира и коллективной безопасности.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- SECTION 09: ИСТОЧНИКИ -->
+      <section class="report-section" id="sources">
+        <div class="section-header">
+          <span class="section-kicker">Раздел 09 · Библиография и киноархив</span>
+          <h2 class="section-title">Список использованных источников</h2>
+        </div>
+
+        <ol class="sources-list">
+          <li>Эргашев Ш., Ходжаев Б., Абдуллаев Дж. <em>Всемирная история</em>: учебник для 10 класса общеобразовательных школ Республики Узбекистан. — Ташкент: Издательско-полиграфический творческий дом «O'qituvchi» / Республиканский центр образования.</li>
+          <li><em>История Узбекистана (начало XX века — 1991 год)</em>: учебник для 10 класса общеобразовательных школ Республики Узбекистан. — Ташкент: Республиканский центр образования.</li>
+          <li>Хидоятов Г. А. <em>Всемирная история (Новейшее время)</em>: учебное пособие. — Ташкент.</li>
+          <li>Зиёев Х. <em>Восстание 1916 года в Туркестане: причины, ход и историческое значение</em>. — Ташкент: Фан.</li>
+          <li>Уткин А. И. <em>Первая мировая война</em>. — М.: Алгоритм, 2001.</li>
+          <li>Энциклопедия Britannica / Всемирная историческая энциклопедия — статьи «World War I», «Treaty of Versailles», «Central Asian Revolt of 1916».</li>
+          <li>Архивная документальная кинохроника (Общественное достояние, Wikimedia Commons): <em>Australia Prepared</em> (1916), <em>The Battle of the Somme</em> (1916), <em>9.2-inch Howitzer Firing, WWI</em> (c. 1917), <em>Tanks of WWI</em> (1918), <em>A Szent István csatahajó pusztulása</em> (1918), <em>La journée de l'Armistice</em> (1918).</li>
+        </ol>
+      </section>
+
+      <footer class="report-footer">
+        Учебный доклад по курсу «Всемирная история», 10 класс (Республика Узбекистан) · Первая мировая война (1914–1918 гг.)
+      </footer>
+    </main>
+  </div>
+
+  <!-- LIGHTBOX MODAL FOR ARCHIVAL GIFS -->
+  <div class="lightbox" id="reelLightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightboxTitle">
+    <div class="lightbox__dialog">
+      <div class="reel-sprockets" aria-hidden="true"></div>
+      <div class="lightbox__top">
+        <h3 class="lightbox__title" id="lightboxTitle">Архивная хроника</h3>
+        <button type="button" class="lightbox__close" id="lightboxClose" aria-label="Закрыть просмотр">✕ Закрыть</button>
+      </div>
+      <div class="lightbox__media">
+        <img id="lightboxImg" src="" alt="">
+      </div>
+      <div class="lightbox__body">
+        <p class="lightbox__caption" id="lightboxCaption"></p>
+        <div class="lightbox__source" id="lightboxSource"></div>
+        <div class="lightbox__nav">
+          <button type="button" class="reel-btn" id="lightboxPrev">← Предыдущая хроника</button>
+          <span class="lightbox__source" id="lightboxCounter"></span>
+          <button type="button" class="reel-btn" id="lightboxNext">Следующая хроника →</button>
+        </div>
+      </div>
+      <div class="reel-sprockets" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
